@@ -34,6 +34,6 @@ jobs:
     - name: Test with pytest
       run: |
         pytest test.py
-    # - name: Test print
-    #   run: |
-    #     pytest test
+    - name: Test print
+      run: |
+        pytest test
