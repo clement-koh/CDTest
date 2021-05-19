@@ -36,4 +36,4 @@ jobs:
         pytest test.py
     - name: Test print
       run: |
-        pytest test
+        pytest test.py
