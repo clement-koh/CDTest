@@ -49,5 +49,5 @@ class testCalculator(unittest.TestCase):
 		self.assertEqual(result, 5, 'Multiplication by one')
 
 if __name__ == "__main__":
-	unittest.main()
 	print("Hello World")
+	unittest.main()
