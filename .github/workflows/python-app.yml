@@ -41,7 +41,7 @@ jobs:
     steps:
     - name: Boundary Unit Test
       run: |
-        pytest test.py
+        python test.py
     
     - name: Controller Unit Test
       run: |
